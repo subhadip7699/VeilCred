@@ -44,23 +44,23 @@ All required Level 3 deliverables have been completed and documented for VeilCre
 | **Demo Video** |[Watch the kiyora Demo Video on Google Drive](https://drive.google.com/file/d/1cAb_dis5CkSjRz4XW3x5RSnGYpUv2BDh/view?usp=sharing) |
 | CI/CD pipeline running (workflow file + passing runs)                 |               ✅ **Passed**                |
 
-> Preprod deployed. Verify the new address on [Midnight Preprod Explorer](https://preprod.midnightexplorer.com/contracts/85c6d5ce4fec74c33a17d4307290bf7d05878637b9f2e70bead1d90bdf5353cc) 
+> Preprod deployed. Verify the new address on [Midnight Preprod Explorer](https://explorer.1am.xyz/contract/a010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf)   
 
 ---
 ## 🔎 Explorer Verification (Preview NetWork)
 
 | Resource | Link                                                                                                                                                                        |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Explorer | [Midnight Preprod Explorer](https://explorer.1am.xyz/contract/)                                                                                                        |
-| Contract | [--](https://explorer.1am.xyz/contract/) |
+| Explorer | [Midnight Preprod Explorer](https://explorer.1am.xyz/contract/a010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf)                                                                                                        |
+| Contract | [0xa010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf](https://explorer.1am.xyz/contract/a010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf) |
 
 
 ### 1. Automated Test Suite Passing
 
 <img width="486" height="169" alt="Screenshot 2026-07-22 123954" src="https://github.com/user-attachments/assets/b71b9cdb-8fc5-46d3-9a80-b390b3c44db1" />
 
-### 2. Deployed on Prepod Network 
-<img width="1838" height="917" alt="image" src="https://github.com/user-attachments/assets/e761ee14-7b25-44d5-bacd-ac74a70f0dbb" />
+### 2. Deployed on Prepod Network (deploy on 26 sep 2026 11:18)
+<img width="1765" height="971" alt="Screenshot 2026-09-26 231917" src="https://github.com/user-attachments/assets/5fa57869-afe2-4ead-b84e-b2e57fb7f268" />
 
 
 
