@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-import { Splash } from "@/components/Splash";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,7 +24,6 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-full flex-col bg-surface text-primary">
-        <Splash />
         <Navigation />
         {children}
         <Footer />
