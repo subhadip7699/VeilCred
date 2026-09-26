@@ -1,37 +1,136 @@
 # VeilCred
-[![VeilCred CI](https://github.com/subhadip7699/VeilCred/actions/runs/36255679516)](https://github.com/smritiadhikari7/VeilCred/actions/runs/36255679516)
 [![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen)](./tests/)
 [![Compact](https://img.shields.io/badge/Compact-Midnight-blue)](https://docs.midnight.network/)
 [![Network](https://img.shields.io/badge/Network-Midnight%20Preprod-purple)](https://indexer.preprod.midnight.network/api/v4/graphql)
 [![Lace Wallet](https://img.shields.io/badge/Wallet-Lace-7B68EE)](https://www.lace.io/)
 [![1AM Wallet](https://img.shields.io/badge/Wallet-1AM-FF5733)](https://1amwallet.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
  <h3>Privacy-First Zero-Knowledge Access Control on Midnight Network</h3>
   <p><i>Prove you're authorized — without revealing who you are.</i></p>
-  
-## 🏆 Level 3 Verification & Submission Deliverables
 
-* 🌐 **Live Preprod Demo:** [https://veil-cred.vercel.app/](https://veil-cred.vercel.app/) — VeilCred is deployed and functional on Midnight Preprod.
-* 💻 **Public GitHub Repository:** `https://github.com/smritiadhikari7/VeilCred` — Complete source code, smart contract, tests, CI/CD, and documentation.
-* 🎥 **Demo Video:** `[DEMO VIDEO URL]` — Full end-to-end VeilCred functionality demonstration.
-* 🧪 **Automated Tests:** ✅ Complete — 3+ tests passing covering core authorization and privacy functionality.
-* 📸 **Test Evidence:** ✅ Complete — Test output screenshot demonstrating passing tests.
-* ⚙️ **CI/CD Pipeline:** ✅ Complete — GitHub Actions workflow configured and passing.
-* 📄 **CI/CD Workflow:** `.github/workflows/ci.yml` — Automated project validation and testing.
-* 🔐 **Privacy Model:** ✅ Complete — README documents what an on-chain observer can and cannot learn.
-* 🌳 **Zero-Knowledge Merkle Verification:** ✅ Complete — Credential membership is verified through the ZK-based Merkle authorization flow.
-* ♻️ **Nullifier Replay Protection:** ✅ Complete — Spent nullifiers prevent replay of previously used authorization proofs.
-* 👛 **Midnight Wallet Integration:** ✅ Complete — Lace and 1AM wallet support implemented.
-* 🛡️ **Midnight Privacy Model:** ✅ Complete — VeilCred meaningfully uses Midnight's privacy-preserving architecture.
-* 📝 **Approved Product Idea:** ✅ Complete — Approved idea from the provided Midnight idea list implemented.
-* 📚 **Complete README:** ✅ Complete — Project architecture, privacy model, setup, testing, deployment, and security documentation included.
-* 💾 **Meaningful Commit History:** ✅ Complete — 10+ meaningful development commits.
-* 🚀 **Functional dApp:** ✅ Complete — Admin enrollment → wallet connection → private credential → ZK proof → Midnight verification → nullifier validation → access granted.
 
-### 🟢 Level 3 Status
+  * **Live Preprod Demo:** https://veil-cred.vercel.app/ *(Live VeilCred Application on Midnight Preprod)*
+* **GitHub Repository:** https://github.com/subhadip7699/VeilCred
+* **Product X (Twitter):** [@NexoraWeb3x](https://x.com/NexoraWeb3x/) *(Official VeilCred X Profile · Product Updates & Community Outreach · The preferred VeilCred handle was unavailable when creating the account)*
+* **Demo Video:** [Watch the VeilCred Demo](https://drive.google.com/file/d/1cAb_dis5CkSjRz4XW3x5RSnGYpUv2BDh/view?usp=sharing)
+* **Preprod Users Registry:** [LAUNCH_USERS.md](./LAUNCH_USERS.md) *(Target: 70 genuine Preprod wallet interactions · Current: 70/70 Complete)*
+* **Official User Feedback Form:** [Submit / View VeilCred Feedback Form](https://forms.gle/9kYjDpAxfEfW8PYu8)
+* **User Feedback Responses Sheet:** [Official VeilCred Feedback Responses](https://docs.google.com/spreadsheets/d/1ZPhIl7uIURkiPjAWO0VxzxlkJ3_WB02AyEvDXwjr1c4/edit?usp=sharing) *(70/70 Preprod user feedback records)*
+* **User Feedback & Validation:** [FEEDBACK.md](./FEEDBACK.md)
+* **Contract ID:** `0xa010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf`
+* **Preprod Contract Explorer:** [View VeilCred Contract](https://explorer.1am.xyz/contract/a010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf)
 
-**✅ LEVEL 3 COMPLETE**
+
+## 📚 Documentation
+
+| Document                                                           | Description                                                                              |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| [README.md](./README.md)                                           | Complete project overview, features, setup, architecture, and deployment information     |
+| [Architecture.md](./Architecture.md)                               | System architecture, project structure, components, and implementation details           |
+| [FEEDBACK.md](./FEEDBACK.md)                                       | User testing feedback, ratings, issues, suggestions, and documented feedback loop        |
+| [LAUNCH_USERS.md](./LAUNCH_USERS.md)                               | Launch user information and Midnight Preprod user onboarding evidence                    |
+| [PLAN.md](./PLAN.md)                                               | Development roadmap, milestones, and implementation plan                                 |
+| [PROPOSAL.md](./PROPOSAL.md)                                       | Product proposal and Zero-Knowledge solution overview                                    |
+| [TRUST_MODEL.md](./TRUST_MODEL.md)                                 | Privacy model, trust assumptions, security boundaries, and threat considerations         |
+| [USERS.md](./USERS.md)                                             | Midnight Preprod user wallet addresses and verification evidence                         |
+| [midnight_level6_VeilCred_plan.md](./midnight_level6_Nexora_plan.md) | Level 6 VeilCred planning, requirements, implementation progress, and submission checklist |
+
+
+<div align="left">
+
+* 🌐 **Live Web Application:** `https://veil-cred.vercel.app/` *(Live VeilCred application deployed on Midnight Preprod)*
+
+* 💻 **Public GitHub Repository:** `https://github.com/subhadip7699/VeilCred` *(Complete open-source VeilCred implementation with updated documentation)*
+
+* ⛓️ **Midnight Preprod Contract:** `0xa010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf`
+
+* 🔍 **Preprod Contract Explorer:** [View VeilCred on Midnight Preprod Explorer](https://explorer.1am.xyz/contract/a010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf) *(Publicly verifiable contract deployment)*
+
+* 🐦 **Product X Account:** [@NexoraWeb3x](https://x.com/NexoraWeb3x/) *(Official VeilCred X account. The handle `@NexoraWeb3x` is used because the preferred VeilCred handle was unavailable when creating the account.)*
+
+* 📊 **Mandatory User Feedback Google Sheet:** [View VeilCred User Feedback Responses](https://docs.google.com/spreadsheets/d/1ZPhIl7uIURkiPjAWO0VxzxlkJ3_WB02AyEvDXwjr1c4/edit?usp=sharing) *(Mandatory Level 5 & Level 6 feedback record)*
+
+* 📝 **User Feedback Collection Form:** [Open VeilCred Feedback Form](https://forms.gle/9kYjDpAxfEfW8PYu8) *(Used to collect tester feedback, usability observations, issues, and improvement suggestions)*
+
+* 👥 **70+ Verifiable Preprod Users:** `70+ Midnight Preprod tester wallet addresses` *(Verifiable user participation and on-chain activity)*
+
+* 💬 **Documented Feedback Loop:** `FEEDBACK.md` *(Documents tester feedback, identified friction points, product improvements, and development iterations)*
+
+* 📚 **Updated Project Documentation:** `README.md` *(Complete documentation covering VeilCred architecture, privacy model, setup, wallet integration, ZK verification flow, Preprod deployment, and usage instructions)*
+
+* 🎥 **Demo Video Walkthrough:** [Watch the VeilCred MVP Demo](https://drive.google.com/file/d/1cAb_dis5CkSjRz4XW3x5RSnGYpUv2BDh/view?usp=sharing) *(Full end-to-end VeilCred MVP demonstration)*
+
+* 🔐 **Privacy-Preserving Verification:** VeilCred proves authorized membership through a Zero-Knowledge proof without exposing the raw credential, Merkle inclusion path, or private witness values on-chain.
+
+* ♻️ **Nullifier Replay Protection:** Every successful verification uses a unique nullifier, preventing previously used authorization proofs from being replayed.
+
+* 👛 **Multi-Wallet Support:** Lace and 1AM wallet integration for secure Midnight Preprod authentication and transaction signing.
+
+* ⚙️ **CI/CD Pipeline:** ✅ Configured and passing *(Automated build, validation, and deployment workflow integrated into the public repository)*
+
+* 💻 **Commit History:** `30+ meaningful commits` *(Demonstrates continuous development and iteration throughout the project)*
+
+* 🧪 **End-to-End MVP Verification:** ✅ Complete *(Admin gate creation → credential enrollment → local ZK proof generation → Midnight verification → nullifier protection → private access unlock)*
+
+### 🟢 Level 6 Status
+
+**All required Level 6 deliverables have been completed and are available for verification through the VeilCred repository, live application, Midnight Preprod deployment, user feedback records, and demonstration materials.**
+
+</div>
+
+---
+
+
+---
+# ✅ Nexora — Level 6 Rejection Fix Checklist
+
+| Requirement                                                                     | Status     |
+| ------------------------------------------------------------------------------- | ---------- |
+| Contract updated this month                                                     | ✅ Complete |
+| New Midnight Preprod deployment completed                                       | ✅ Complete |
+| Deployment transaction hash documented                                          | ✅ Complete |
+| Google Sheet updated with complete onboarded user data                          | ✅ Complete |
+| Name added for onboarded users                                                  | ✅ Complete |
+| Email added for onboarded users                                                 | ✅ Complete |
+| Wallet address added for onboarded users                                        | ✅ Complete |
+| User feedback added                                                             | ✅ Complete |
+| Transaction hash added where applicable                                         | ✅ Complete |
+| 70+ Midnight Preprod users verified                                             | ✅ Complete |
+| User feedback documentation updated                                             | ✅ Complete |
+| Frontend UI significantly improved                                              | ✅ Complete |
+| Custom Nexora logo implemented                                                  | ✅ Complete |
+| Strong visual identity and branding implemented                                 | ✅ Complete |
+| Landing page redesigned and polished                                            | ✅ Complete |
+| Application UI/UX polished                                                      | ✅ Complete |
+| Wallet connection and access flow improved                                      | ✅ Complete |
+| Responsive design improved                                                      | ✅ Complete |
+| Overall product experience upgraded                                             | ✅ Complete |
+| README and documentation updated                                                | ✅ Complete |
+| Latest contract and deployment information documented                           | ✅ Complete |
+| Live application verified after updates                                         | ✅ Complete |
+| CI/CD verified successfully                                                     | ✅ Complete |
+| **36+ meaningful commits demonstrating continuous development and improvement** | ✅ Complete |
+| Level 6 rejection feedback fully addressed                                      | ✅ Complete |
+| Final Level 6 resubmission evidence prepared                                    | ✅ Complete |
+
+## 🏆 Final Status
+
+**✅ ALL LEVEL 6 REJECTION POINTS — COMPLETED**
+
+## Level 6 Users
+See [`LAUNCH_USERS.md`](./Documents/LAUNCH_USERS.md)
+
+## Level 5 - User Validation & Iteration
+- **Target:** 50 Preprod users
+- **Current Verified:** 50 / 50
+- **User Directory:** See [`USERS.md`](./Documents/USERS.md) for full verified addresses.
+- **Feedback & Changes:** See [`Documents/FEEDBACK.md`](./Documents/FEEDBACK.md) for raw feedback logs, feedback themes, and applied code iterations.
+
+## Feedback & Iterations
+See [`docs/FEEDBACK.md`](./docs/FEEDBACK.md) for full details.
+
+
+
 
 All required Level 3 deliverables have been completed and documented for VeilCred, including the functional Midnight dApp, 3+ passing tests, CI/CD pipeline, approved project idea, 10+ meaningful commits, public GitHub repository, live deployment, privacy model documentation, test evidence, and demo video.
 
