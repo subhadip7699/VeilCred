@@ -11,7 +11,7 @@
 
   * **Live Preprod Demo:** https://veil-cred.vercel.app/ *(Live VeilCred Application on Midnight Preprod)*
 * **GitHub Repository:** https://github.com/subhadip7699/VeilCred
-* **Product X (Twitter):** [@NexoraWeb3x](https://x.com/NexoraWeb3x/) *(Official VeilCred X Profile · Product Updates & Community Outreach · The preferred VeilCred handle was unavailable when creating the account)*
+* **Product X (Twitter):** [@Veilcred](https://x.com/Veilcred/) *(Official VeilCred X Profile · Product Updates & Community Outreach · The preferred VeilCred handle was unavailable when creating the account)*
 * **Demo Video:** [Watch the VeilCred Demo](https://drive.google.com/file/d/1cAb_dis5CkSjRz4XW3x5RSnGYpUv2BDh/view?usp=sharing)
 * **Preprod Users Registry:** [LAUNCH_USERS.md](./LAUNCH_USERS.md) *(Target: 70 genuine Preprod wallet interactions · Current: 70/70 Complete)*
 * **Official User Feedback Form:** [Submit / View VeilCred Feedback Form](https://forms.gle/9kYjDpAxfEfW8PYu8)
@@ -46,7 +46,7 @@
 
 * 🔍 **Preprod Contract Explorer:** [View VeilCred on Midnight Preprod Explorer](https://explorer.1am.xyz/contract/a010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf) *(Publicly verifiable contract deployment)*
 
-* 🐦 **Product X Account:** [@NexoraWeb3x](https://x.com/NexoraWeb3x/) *(Official VeilCred X account. The handle `@NexoraWeb3x` is used because the preferred VeilCred handle was unavailable when creating the account.)*
+* 🐦 **Product X Account:** [@Veilcred](https://x.com/Veilcred/) *(Official VeilCred X account.)*
 
 * 📊 **Mandatory User Feedback Google Sheet:** [View VeilCred User Feedback Responses](https://docs.google.com/spreadsheets/d/1ZPhIl7uIURkiPjAWO0VxzxlkJ3_WB02AyEvDXwjr1c4/edit?usp=sharing) *(Mandatory Level 5 & Level 6 feedback record)*
 
