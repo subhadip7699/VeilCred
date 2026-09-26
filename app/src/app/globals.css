@@ -223,6 +223,106 @@ code {
   color: #3f7d58;
 }
 
+/* Zero-Knowledge & Quantum Orbital Loading Animations */
+@keyframes zk-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes zk-spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes zk-pulse-glow {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(0.96);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.04);
+  }
+}
+
+@keyframes zk-shimmer-slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes zk-beacon-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes zk-scanner-sweep {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+}
+
+.animate-zk-spin {
+  animation: zk-spin 2.6s linear infinite;
+}
+
+.animate-zk-spin-slow {
+  animation: zk-spin 7s linear infinite;
+}
+
+.animate-zk-spin-reverse {
+  animation: zk-spin-reverse 3.8s linear infinite;
+}
+
+.animate-zk-spin-fast {
+  animation: zk-spin 1.2s linear infinite;
+}
+
+.animate-zk-pulse-glow {
+  animation: zk-pulse-glow 2.4s ease-in-out infinite;
+}
+
+.animate-zk-shimmer {
+  animation: zk-shimmer-slide 1.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.animate-zk-beacon {
+  animation: zk-beacon-ring 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.animate-zk-scanner {
+  animation: zk-scanner-sweep 2.2s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -233,3 +333,4 @@ code {
     transition-duration: 0.01ms !important;
   }
 }
+

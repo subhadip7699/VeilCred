@@ -8,7 +8,6 @@ import {
   Copy,
   ExternalLink,
   Link2,
-  LoaderCircle,
   Rocket,
   ShieldCheck,
   UserPlus,
@@ -30,7 +29,7 @@ import {
 } from "@/lib/gate-store";
 import { WalletConnectModal } from "@/components/WalletConnectModal";
 import { WalletSessionBar } from "@/components/WalletSessionBar";
-import { LoadingState, BusyButtonContent } from "@/components/ui/LoadingState";
+import { LoadingState, BusyButtonContent, ZkOrbitalLoader } from "@/components/ui/LoadingState";
 import { StatusBanner, StageBadge } from "@/components/ui/StatusBanner";
 import { ProgressPanel } from "@/components/ui/ProgressPanel";
 import { PageShell } from "@/components/ui/PageShell";
@@ -678,7 +677,7 @@ export default function AdminPage() {
                     onClick={confirmDeployment}
                     className="inline-flex min-h-12 w-full items-center justify-center gap-3 rounded-full border border-amber-300/50 px-5 text-sm font-semibold text-primary transition-colors hover:bg-amber-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-300"
                   >
-                    <LoaderCircle size={17} aria-hidden="true" /> Check deployment confirmation
+                    <ZkOrbitalLoader size="sm" aria-hidden="true" /> Check deployment confirmation
                   </button>
                 )}
                 {deploymentStage === "error" && (
@@ -969,7 +968,7 @@ export default function AdminPage() {
                   onClick={checkEnrollmentConfirmation}
                   className="mt-4 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full border border-amber-300/50 px-4 text-sm font-semibold text-primary transition-colors hover:bg-amber-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-200"
                 >
-                  <LoaderCircle size={16} className="animate-spin" aria-hidden="true" /> Check enrollment confirmation
+                  <ZkOrbitalLoader size="sm" aria-hidden="true" /> Check enrollment confirmation
                 </button>
               )}
               {pendingEnrollment?.txId && (

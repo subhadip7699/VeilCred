@@ -1,7 +1,7 @@
 "use client";
 
-import { LoaderCircle } from "lucide-react";
 import { progressDetail, progressLabel, type ProgressStage } from "@/lib/transaction-stages";
+import { ZkOrbitalLoader } from "./ZkOrbitalLoader";
 
 const ORDER: ProgressStage[] = ["preparing", "proving", "balancing", "awaiting_wallet", "submitted", "confirming", "confirmed"];
 
@@ -39,7 +39,7 @@ export function ProgressPanel({ stage, context = "prove", message }: ProgressPan
         })}
       </div>
       <div className="mt-4 flex items-start gap-3">
-        {active && <LoaderCircle size={18} className="mt-0.5 shrink-0 animate-spin text-accent" aria-hidden="true" />}
+        {active && <ZkOrbitalLoader size="sm" className="mt-0.5 shrink-0" />}
         <div className="min-w-0">
           <p className="text-sm font-semibold text-primary">{progressLabel(stage, context)}</p>
           <p className="mt-1 text-sm leading-6 text-muted">{message || progressDetail(stage)}</p>

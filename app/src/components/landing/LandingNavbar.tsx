@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Check, LoaderCircle, Menu, Wallet, X } from "lucide-react";
+import { ArrowRight, Check, Menu, Wallet, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { WalletConnectModal } from "@/components/WalletConnectModal";
 import { APP_NETWORK, MidnightClient } from "@/lib/midnight-client";
 import type { WalletOption } from "@/lib/midnight-client";
+import { ZkOrbitalLoader } from "@/components/ui/LoadingState";
 import styles from "./Landing.module.css";
 
 const navLinks = [
@@ -113,7 +114,7 @@ export function LandingNavbar() {
               title={walletAddress ?? "Connect Midnight Wallet"}
             >
               {walletConnecting ? (
-                <LoaderCircle size={14} className={styles.rotatingIcon} />
+                <ZkOrbitalLoader size="xs" variant="light" />
               ) : walletAddress ? (
                 <Check size={14} className={styles.textGreen} />
               ) : (

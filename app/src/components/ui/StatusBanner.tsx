@@ -1,7 +1,8 @@
 "use client";
 
-import { AlertCircle, CheckCircle2, Info, LoaderCircle } from "lucide-react";
+import { AlertCircle, CheckCircle2, Info } from "lucide-react";
 import type { ReactNode } from "react";
+import { ZkOrbitalLoader } from "./ZkOrbitalLoader";
 
 export type StatusTone = "neutral" | "info" | "success" | "warning" | "error" | "busy";
 
@@ -21,28 +22,27 @@ const toneStyles: Record<StatusTone, string> = {
   busy: "border-accent-soft/40 bg-accent-dim text-accent",
 };
 
-const toneIcons: Record<StatusTone, typeof AlertCircle> = {
+const toneIcons: Record<Exclude<StatusTone, "busy">, typeof AlertCircle> = {
   neutral: Info,
   info: Info,
   success: CheckCircle2,
   warning: AlertCircle,
   error: AlertCircle,
-  busy: LoaderCircle,
 };
 
 export function StatusBanner({ tone = "neutral", title, children, className = "" }: StatusBannerProps) {
-  const Icon = toneIcons[tone];
+  const Icon = tone !== "busy" ? toneIcons[tone] : null;
   return (
     <div
       className={`flex items-start gap-3 rounded-2xl border p-4 text-sm leading-6 shadow-[0_2px_12px_rgba(0,0,0,0.04)] ${toneStyles[tone]} ${className}`}
       role={tone === "error" ? "alert" : "status"}
       aria-live={tone === "error" ? "assertive" : "polite"}
     >
-      <Icon
-        size={17}
-        className={`mt-0.5 shrink-0 ${tone === "busy" ? "animate-spin" : ""}`}
-        aria-hidden="true"
-      />
+      {tone === "busy" ? (
+        <ZkOrbitalLoader size="sm" className="mt-0.5 shrink-0" />
+      ) : (
+        Icon && <Icon size={17} className="mt-0.5 shrink-0" aria-hidden="true" />
+      )}
       <div className="min-w-0">
         {title && <p className="font-semibold">{title}</p>}
         <div className={title ? "mt-1" : ""}>{children}</div>
