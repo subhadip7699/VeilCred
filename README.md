@@ -12,7 +12,7 @@
   * **Live Preprod Demo:** https://veil-cred.vercel.app/ *(Live VeilCred Application on Midnight Preprod)*
 * **GitHub Repository:** https://github.com/subhadip7699/VeilCred
 * **Product X (Twitter):** [@Veilcred](https://x.com/Veilcred/) *(Official VeilCred X Profile · Product Updates & Community Outreach · The preferred VeilCred handle was unavailable when creating the account)*
-* **Demo Video:** [Watch the VeilCred Demo](https://drive.google.com/file/d/1cAb_dis5CkSjRz4XW3x5RSnGYpUv2BDh/view?usp=sharing)
+* **Demo Video:** [Watch the VeilCred Demo](https://drive.google.com/file/d/1iwnR7u92_BdbVkk4K1nVdmV2Si-QmfYj/view?usp=sharing)
 * **Preprod Users Registry:** [LAUNCH_USERS.md](./LAUNCH_USERS.md) *(Target: 70 genuine Preprod wallet interactions · Current: 70/70 Complete)*
 * **Official User Feedback Form:** [Submit / View VeilCred Feedback Form](https://forms.gle/9kYjDpAxfEfW8PYu8)
 * **User Feedback Responses Sheet:** [Official VeilCred Feedback Responses](https://docs.google.com/spreadsheets/d/1ZPhIl7uIURkiPjAWO0VxzxlkJ3_WB02AyEvDXwjr1c4/edit?usp=sharing) *(70/70 Preprod user feedback records)*
@@ -58,7 +58,7 @@
 
 * 📚 **Updated Project Documentation:** `README.md` *(Complete documentation covering VeilCred architecture, privacy model, setup, wallet integration, ZK verification flow, Preprod deployment, and usage instructions)*
 
-* 🎥 **Demo Video Walkthrough:** [Watch the VeilCred MVP Demo](https://drive.google.com/file/d/1cAb_dis5CkSjRz4XW3x5RSnGYpUv2BDh/view?usp=sharing) *(Full end-to-end VeilCred MVP demonstration)*
+* 🎥 **Demo Video Walkthrough:** [Watch the VeilCred MVP Demo](https://drive.google.com/file/d/1iwnR7u92_BdbVkk4K1nVdmV2Si-QmfYj/view?usp=sharing) *(Full end-to-end VeilCred MVP demonstration)*
 
 * 🔐 **Privacy-Preserving Verification:** VeilCred proves authorized membership through a Zero-Knowledge proof without exposing the raw credential, Merkle inclusion path, or private witness values on-chain.
 
