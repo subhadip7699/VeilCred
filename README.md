@@ -40,7 +40,7 @@ All required Level 3 deliverables have been completed and documented for VeilCre
 | Network     | Address                                                              |
 | ----------- | -------------------------------------------------------------------- |
 | **🌐Live Demo** | [https://VeilCredweb3.vercel.app/](https://VeilCredweb3.vercel.app/) |
-| **Preprod** | `--` |
+| **Preprod** | `0xa010b7f3db0633fe52c0b6bfc5e014ed568cd8c51b0109f11453a58bc746fccf` |
 | **Demo Video** |[Watch the kiyora Demo Video on Google Drive](https://drive.google.com/file/d/1cAb_dis5CkSjRz4XW3x5RSnGYpUv2BDh/view?usp=sharing) |
 | CI/CD pipeline running (workflow file + passing runs)                 |               ✅ **Passed**                |
 
